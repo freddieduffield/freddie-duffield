@@ -5,7 +5,6 @@ const TwitterI = styled(Twitter)`
   color: black;
   cursor: pointer;
   height: 100px;
-  margin-left: 1rem;
 `;
 
 export default TwitterI;
