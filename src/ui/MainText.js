@@ -9,6 +9,7 @@ const MainText = styled.h1`
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 `;
 
 export default MainText;
