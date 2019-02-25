@@ -1,0 +1,89 @@
+import React from 'react';
+import Particle from '../ui/Particle';
+import ParticleContainer from '../ui/ParticleContainer';
+import MainText from '../ui/MainText';
+import TwitterLink from '../components/TwitterLink';
+
+const Physics = () => {
+  return (
+    <ParticleContainer>
+      <MainText>
+        Coming Soon
+        <TwitterLink />
+      </MainText>
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+      <Particle />
+    </ParticleContainer>
+  );
+};
+
+export default Physics;

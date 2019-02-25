@@ -1,88 +1,20 @@
 import React from 'react';
+import { Link, Layout } from 'gatsby';
 
-import Particle from '../ui/Particle';
-import ParticleContainer from '../ui/ParticleContainer';
-import MainText from '../ui/MainText';
-import TwitterLink from '../components/TwitterLink';
+import Physics from '../components/Physics';
+import VideoPlayer from '../components/VideoPlayer';
 
-const IndexPage = () => (
-  <ParticleContainer>
-    <MainText>
-      Coming Soon
-      <TwitterLink />
-    </MainText>
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-    <Particle />
-  </ParticleContainer>
-);
+import Container from '../ui/Container';
+
+const IndexPage = () => {
+  return (
+    <>
+      <Container>
+        <VideoPlayer />
+      </Container>
+      <Physics />
+    </>
+  );
+};
 
 export default IndexPage;
