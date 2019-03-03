@@ -2,17 +2,19 @@ import React from 'react';
 import Particle from '../ui/Particle';
 import ParticleContainer from '../ui/ParticleContainer';
 import MainText from '../ui/MainText';
+import ReactI from '../ui/React';
 import TwitterLink from '../components/TwitterLink';
 
 const Physics = () => {
   return (
     <ParticleContainer>
-      <MainText>
-        Coming Soon
+      <MainText>freddieduffield.com</MainText>
+      <Particle>
         <TwitterLink />
-      </MainText>
-      <Particle />
-      <Particle />
+      </Particle>
+      <Particle>
+        <ReactI />
+      </Particle>
       <Particle />
       <Particle />
       <Particle />

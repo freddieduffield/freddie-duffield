@@ -5,7 +5,7 @@ const MainText = styled.h1`
   font-family: 'Arial Black', sans-serif;
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
