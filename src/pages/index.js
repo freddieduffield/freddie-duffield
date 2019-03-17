@@ -3,6 +3,7 @@ import { Link, Layout } from 'gatsby';
 
 import Physics from '../components/Physics';
 import VideoPlayer from '../components/VideoPlayer';
+import Form from '../components/Form';
 
 import Container from '../ui/Container';
 
@@ -12,6 +13,7 @@ const IndexPage = () => {
       <Container>
         <VideoPlayer />
       </Container>
+      <Form />
       <Physics />
     </>
   );
