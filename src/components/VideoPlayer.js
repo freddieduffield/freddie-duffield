@@ -27,14 +27,17 @@ class VideoPlayer extends React.Component {
     this.setState({ on: true });
   }
 
-  handleProgress() {
-    // const percent = (video.currentTime / video.duration) * 100;
+  onPlaying(e) {
+    // const percent =
+    //   (this.videoRef.current.currentTime / this.videoRef.current.duration) *
+    //   100;
+
+    console.log(e.target.currentTime);
     // progressBar.style.flexBasis = `${percent}%`;
   }
 
   render() {
     const { on } = this.state;
-    console.log(this.state);
 
     return (
       <Player>
@@ -43,9 +46,10 @@ class VideoPlayer extends React.Component {
           width="200px"
           ref={this.videoRef}
           onEnded={() => this.onEnd()}
+          onTimeChange={this.onPlaying}
         />
         <Controls on={on} togglePlay={this.togglePlay} />
-        <Player.ProgressBar>
+        <Player.ProgressBar onChange={this.handleProgress}>
           <Player.Progress />
         </Player.ProgressBar>
       </Player>

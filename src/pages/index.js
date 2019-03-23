@@ -13,7 +13,7 @@ const IndexPage = () => {
       <Container>
         <VideoPlayer />
       </Container>
-      <Form />
+      {/* <Form /> */}
       <Physics />
     </>
   );
