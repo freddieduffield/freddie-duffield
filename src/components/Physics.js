@@ -4,6 +4,15 @@ import ParticleContainer from '../ui/ParticleContainer';
 import MainText from '../ui/MainText';
 import ReactI from '../ui/React';
 import TwitterLink from '../components/TwitterLink';
+import GitHubLink from '../components/GitHubLink';
+
+const generateParticles = numberOfParticles => {
+  const particles = [];
+  for (let index = 0; index < numberOfParticles; index++) {
+    particles.push(<Particle key={`particle${index}`} />);
+  }
+  return particles;
+};
 
 const Physics = () => {
   return (
@@ -13,77 +22,12 @@ const Physics = () => {
         <TwitterLink />
       </Particle>
       <Particle>
+        <GitHubLink />
+      </Particle>
+      <Particle>
         <ReactI />
       </Particle>
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
-      <Particle />
+      {generateParticles(100)}
     </ParticleContainer>
   );
 };
