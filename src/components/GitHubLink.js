@@ -1,5 +1,5 @@
 import React from 'react';
-import GitHub from '../ui/GitHub';
+import GitHub from '../ui/Icon/GitHub';
 
 const GitHubLink = () => {
   return (

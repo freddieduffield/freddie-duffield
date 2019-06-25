@@ -2,9 +2,11 @@ import React from 'react';
 import Particle from '../ui/Particle';
 import ParticleContainer from '../ui/ParticleContainer';
 import MainText from '../ui/MainText';
-import ReactI from '../ui/React';
+import ReactI from '../ui/Icon/React';
+import JavaScriptI from '../ui/Icon/JavaScript';
 import TwitterLink from '../components/TwitterLink';
 import GitHubLink from '../components/GitHubLink';
+import LinkedInLink from '../components/LinkedInLink';
 
 const generateParticles = numberOfParticles => {
   const particles = [];
@@ -26,6 +28,12 @@ const Physics = () => {
       </Particle>
       <Particle>
         <ReactI />
+      </Particle>
+      <Particle>
+        <JavaScriptI />
+      </Particle>
+      <Particle>
+        <LinkedInLink />
       </Particle>
       {generateParticles(100)}
     </ParticleContainer>

@@ -1,5 +1,5 @@
 import React from 'react';
-import TwitterI from '../ui/Twitter';
+import TwitterI from '../ui/Icon/Twitter';
 
 const TwitterLink = () => {
   return (
